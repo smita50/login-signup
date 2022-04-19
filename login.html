@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" src="freshers-website-logo.gif">
+        <div id="caption"></div>
+    </div>
+    <form name="myform">
+        <div class="section" id = "on">
+            <div class="container">
+                <div class="row full-height justify-content-center">
+                    <div class="col-12 text-center align-self-center py-5">
+                        <div class="section pb-5 pt-5 pt-sm-2 text-center">
+                            <h6 class="mb-0 pb-3"><span>Log In </span><span>Sign Up</span></h6>
+                            <input class="checkbox" type="checkbox" id="reg-log" name="reg-log" />
+                            <label for="reg-log"></label>
+                            <div class="card-3d-wrap mx-auto">
+                                <div class="card-3d-wrapper">
+                                    <div class="card-front">
+                                        <div class="center-wrap">
+                                            <div class="section text-center">
+                                                <h4 class="mb-4 pb-3">Log In</h4>
+                                                <div class="form-group">
+                                                    <input type="text" name="logemail1" class="form-style"
+                                                        placeholder="College ID" id="logemail1" style="text-transform:uppercase">
+                                                    <i class="input-icon uil uil-at"></i>
+                                                </div>
+                                                <br>
+                                                <div class="form-group mt-2">
+                                                    <input type="password" name="logpass1" class="form-style"
+                                                        placeholder="PASSWORD" id="logpass1" autocomplete="off">
+                                                    <i class="input-icon uil uil-lock-alt"></i>
+                                                </div>
+                                                <br>
+                                                <a class="btn mt-4" onclick="myfunction1()">submit</a>
+                                                <p class="mb-0 mt-4 text-center"><a class="link" onclick="alert1()">Forgot your
+                                                        password?</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="center-wrap">
+                                            <div class="section text-center">
+                                                <h4 class="mb-4 pb-3">Sign Up</h4>
+                                                <div class="form-group">
+                                                    <input type="text" name="logname2" class="form-style"
+                                                        placeholder="Your Name" id="logname2" style="text-transform:uppercase">
+                                                    <i class="input-icon uil uil-user"></i>
+                                                </div>
+                                                <br>
+                                                <div class="form-group mt-2">
+                                                    <input type="text" name="logemail2" class="form-style"
+                                                        placeholder="College ID" id="logemail2" style="text-transform:uppercase">
+                                                    <i class="input-icon uil uil-at"></i>
+                                                </div>
+                                                <br>
+                                                <a onclick="myfunction2()"><img id="myImg" class="btnimg mt-4" src="logo.png"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
